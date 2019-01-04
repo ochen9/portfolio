@@ -1,47 +1,134 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>olivia's portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div class="nav">
-		<a href="about.html">About</a>
-		<a href="art.html">Art</a>
-		<a href="index.html" class="current">Design</a>
-	</div>
+body {
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+	font-size: 20px;
+	padding-left: 10px;
+}
 
-	<div id = "header"> Olivia Chen</div>
-	<div id = "intro"> I'm an aspiring product designer currently attending UCLA. Here's some of my work. </div>
+a:link{
+	color: #484848;
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
 
-	<div class = "container">
-		<div class="project">
-			<a href = "project1.html">
-				<img src="images/mappening.png" width="185" height="249" alt="Mappening Logo" >
-				<h2 href = "project1.html">Mappening</h2>
-				<p href = "project1.html">Increasing UCLA students' exposure to events happening on or near campus to get the full spectrum of what UCLA has to offer.</p>	
-			</a>
-		</div>
+.nav a:link{
+	float: right;
+	padding-right: 40px;
+}
+.nav a:visited{
+	color: #484848;
+}
+.nav a:hover {	
+	color: #e45647;
+	text-decoration: underline;
+}
+.nav a.current {
+	color: #e45647;
+}
 
-		<div class="project">
-			<a href = "project2.html">
-				<img src="images/instagram.png" width="200" height="200" alt="Instagram Logo">
-				<h2 href = "project2.html">Improve Instagram</h2>
-				<p href = "project1.html">Independent project directed and improving a popular app done for practice.</p>	
-			</a>
-		</div>
+ 
+.nav {
+	font-size: 30px;
+	height: 80px;
+	line-height: 80px;
 
-		<div class="project">
-			<a href = "project3.html">
-				<img src="images/studysmart logo.png" width="22%" height="22%" alt="Studysmart Logo">
-				<h2 href = "project2.html">Studysmart</h2>
-				<p href = "project1.html">An application that gives UCLA students instant access to all the information they need about the best study spots on campus that is updated in real-time.</p>	
-			</a>
-		</div>
-	</div>
+}
 
-	<div id = "footer"> </div>
-	
+#header {
+	color:#484848;
+	padding-top: 50px;
+	font-size: 90px;
+	text-align: center;
+}
+#intro{
+	color:#484848;
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+#intro a:link{
+	color: #e45647 ;
+}
+#intro a:visited{
+	color: #e45647 ;
+}
+#footer {
+	padding-bottom: 200px;
+}
 
-</body>
-</html>
+.container{
+	max-width: 1400px;
+}
+.projectcontainer{
+	max-width: 1200px;
+	padding-left: 100px;
+
+}
+
+.aboutcontainer{
+	max-width: 800px;
+	float:right;
+	padding-top:40px;
+	padding-right: 100px;
+}
+.aboutcontainer a:link{
+	color: #e45647;
+}
+.aboutcontainer a:visited{
+	color:#e45647;
+}
+.gallerycontainer{
+	padding-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.project{
+	padding-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: #484848;
+	clear: both;
+}
+.project a:visited{
+	color: #484848;
+}
+.project h2{
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 0;
+
+}
+.project img{
+	float: right;
+	margin-left: 20px;
+}
+
+.projectbody{
+	padding-top: 80px;
+	padding-left: 80px;
+	padding-right: 80px;
+	color: #484848;
+	clear: both;;
+}
+.projectbody a:visited{
+	color: #484848;
+}
+.projectbody h2{
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+.projectbody h3{
+	font-weight: normal;
+	font-size: 30px;
+	color:#e45647;
+	margin-bottom: 0;
+}
+.projectbody img{
+	float: center;
+	margin-left: 20px;
+}
+
+
