@@ -1,10 +1,8 @@
 body {
-	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+	font-family: Hanken Grotesk,Helvetica,sans-serif; 
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
-	background-color:#99b898;
-	background-image: linear-gradient(#A8E6CE, #DCEDC2, #FFD3B5, #FFAAA6, #FF8C94);”
 }	
 
 a:link{
@@ -50,8 +48,9 @@ a:visited{
 	max-width: 800px;
 	margin: auto;
 	font-weight: lighter;
-	line-height: 1.4em;
-	padding-top: 12px;
+    line-height: 1.4em;
+    padding-top: 12px;
+	padding-bottom: 50px;
 
 }
 #intro a:link{
@@ -62,6 +61,11 @@ a:visited{
 }
 #footer {
 	padding-bottom: 200px;
+}
+
+.backgroundcontainer{
+	background-color:#99b898;
+	background-image: linear-gradient(#A8E6CE, #DCEDC2, #FFD3B5);”
 }
 
 .container{
