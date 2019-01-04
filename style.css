@@ -60,7 +60,12 @@ a:visited{
 	color: #e45647 ;
 }
 #footer {
-	padding-bottom: 200px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+#footer a:hover{
+	opacity: 0.5;
 }
 
 .backgroundcontainer{
