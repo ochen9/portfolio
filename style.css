@@ -44,14 +44,12 @@ a:visited{
 }
 #intro{
 	color:#484848;
-	font-size: 20px;
 	text-align: center;
 	max-width: 800px;
 	margin: auto;
 	font-weight: lighter;
     line-height: 1.4em;
-    padding-top: 12px;
-	padding-bottom: 65px;
+	padding-bottom: 40px;
 
 }
 #intro a:link{
@@ -73,9 +71,10 @@ a:visited{
 	opacity: 0.5;
 }
 
-.backgroundcontainer{
+.indexbackgroundcontainer{
 	background-color:#99b898;
-	background-image: linear-gradient(#A8E6CE, #DCEDC2, #FFD3B5);”
+	background-image: linear-gradient(#A8E6CE, #DCEDC2, #FFD3B5);
+	padding-bottom:70px;
 }
 
 .container{
@@ -105,8 +104,8 @@ a:visited{
 }
 .gallerycontainer{
 	padding-top: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+	text-align:center;
+	margin: auto;
 }
 
 .project{
@@ -182,7 +181,17 @@ a:visited{
 
 p {
     font-size: 28px;
-    font-weight: lighter;
+	font-weight: lighter;
+	line-height: 1.4em;
+	margin-block-end: 1em;
+}
+ul{
+	font-weight: lighter;
+	line-height: 1.4em;
+	margin-block-end: 1em;
+}
+ol{
+	font-weight: lighter;
 	line-height: 1.4em;
 	margin-block-end: 1em;
 }
