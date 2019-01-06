@@ -49,7 +49,6 @@ a:visited{
 	margin: auto;
 	font-weight: lighter;
     line-height: 1.4em;
-	padding-bottom: 40px;
 
 }
 #intro a:link{
@@ -65,16 +64,17 @@ a:visited{
 	clear:both;
 }
 #footer img{
+	opacity:0.8;
 	margin:8px 8px;
 }
 #footer a:hover{
-	opacity: 0.5;
+	opacity:0.5;
 }
 
-.indexbackgroundcontainer{
+.backgroundcontainer{
 	background-color:#99b898;
 	background-image: linear-gradient(#A8E6CE, #DCEDC2, #FFD3B5);
-	padding-bottom:70px;
+	padding-bottom:130px;
 }
 
 .container{
