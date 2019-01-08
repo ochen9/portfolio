@@ -1,5 +1,5 @@
 body {
-	font-family: Hanken Grotesk,Helvetica,sans-serif; 
+	font-family: Oxygen,sans-serif; 
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
@@ -92,11 +92,12 @@ a:visited{
 .aboutcontainer{
 	max-width: 800px;
 	float:right;
-	padding-top:40px;
+	padding-top:50px;
 	padding-right: 100px;
 	margin-left:50px;
 }
 .aboutcontainer a:link{
+	font-weight:normal;
 	color: #e45647;
 }
 .aboutcontainer a:visited{
@@ -146,7 +147,7 @@ a:visited{
 	font-weight: normal;
 	font-size: 40px;
 	margin-bottom: 0;
-	margin-top:0;
+	margin-top: 40px;
 }
 .projectbody h3{
 	font-weight: normal;
